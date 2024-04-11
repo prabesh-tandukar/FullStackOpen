@@ -22,15 +22,29 @@ const Statistics = (props) => {
   return (
     <div>
       <h1>statistics</h1>
-      <Inline name="good" num={props.good}></Inline>
-      <Inline name="neutral" num={props.neutral} />
-      <Inline name="bad" num={props.bad} />
-      <Inline name="all" num={props.total}></Inline>
-      <Inline
-        name="average"
-        num={(1 * props.good - 1 * props.bad) / props.total}
-      />
-      <Inline name="positive" num={props.good / props.total} />
+      <table>
+        <tr>
+          <Inline name="good" num={props.good}></Inline>
+        </tr>
+        <tr>
+          <Inline name="neutral" num={props.neutral} />
+        </tr>
+        <tr>
+          <Inline name="bad" num={props.bad} />
+        </tr>
+        <tr>
+          <Inline name="all" num={props.total}></Inline>
+        </tr>
+        <tr>
+          <Inline
+            name="average"
+            num={(1 * props.good - 1 * props.bad) / props.total}
+          />
+        </tr>
+        <tr>
+          <Inline name="positive" num={props.good / props.total} />
+        </tr>
+      </table>
     </div>
   );
 };
