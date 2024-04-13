@@ -9,8 +9,8 @@ const MostVotes = (props) => {
   const length = props.array.length;
 
   for (let index = 0; index < props.array.length; index++) {
-    if (props.array[length] > highest) {
-      highest = length;
+    if (props.array[index].votes > props.array[highest].votes) {
+      highest = index;
     }
   }
   return (
