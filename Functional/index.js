@@ -1,5 +1,8 @@
+//In functional programming languages Functions are values
 //Higher order funtion
 //In javascript we can assign a function to a variable and then assign it to another variable as well
+
+//Higher order function
 function square(x) {
   return x * x;
 }
