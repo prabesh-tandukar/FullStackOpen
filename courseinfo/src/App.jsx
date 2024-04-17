@@ -60,17 +60,17 @@ const App = () => {
     <>
       <Header course={course.name} />
       <Content
-        part1={part1.name}
-        exercises1={part1.exercises}
-        part2={part2.name}
-        exercises2={part2.exercises}
-        part3={part3.name}
-        exercises3={part3.exercises}
+        part1={course.parts[0].name}
+        exercises1={course.parts[0].exercises}
+        part2={course.parts[1].name}
+        exercises2={course.parts[1].exercises}
+        part3={course.parts[2].name}
+        exercises3={course.parts[2].exercises}
       />
       <Total
-        exercises1={part1.exercises}
-        exercises2={part2.exercises}
-        exercises3={part3.exercises}
+        exercises1={course.parts[0].exercises}
+        exercises2={course.parts[1].exercises}
+        exercises3={course.parts[2].exercises}
       />
     </>
   );
