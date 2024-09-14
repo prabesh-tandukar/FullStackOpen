@@ -50,3 +50,5 @@ This seqeunce diagram visualizes how the browser and server communicates over th
 First, the browser sends an HTTP GET request to the server to fetch the HTML code of the page. The img tag in the HTML prompts the browser to fetch the image kuva.png. The browser renders the HTML page and the image to the screen.
 
 Its difficult to notice but the HTML page will render before the image has been fetched from the server.
+
+## Traditiona web applications:
