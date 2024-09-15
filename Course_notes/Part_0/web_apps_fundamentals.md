@@ -51,4 +51,6 @@ First, the browser sends an HTTP GET request to the server to fetch the HTML cod
 
 Its difficult to notice but the HTML page will render before the image has been fetched from the server.
 
-## Traditiona web applications:
+## Traditional web applications:
+
+traditina
