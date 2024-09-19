@@ -53,4 +53,4 @@ Its difficult to notice but the HTML page will render before the image has been 
 
 ## Traditional web applications:
 
-traditina
+In traditional web applications, the browser is "dumb". It only fetches HTML data from the server, and all application logic is on the server. A server can be created using Java Spring, Python Flask, Ruby on Rails, Node js
